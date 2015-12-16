@@ -14,6 +14,9 @@
 		C45C1B3D1C2206130024E833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C1B3B1C2206130024E833 /* LaunchScreen.storyboard */; };
 		C45C1B481C2206130024E833 /* VFLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C1B471C2206130024E833 /* VFLPracticeTests.swift */; };
 		C45C1B531C2206130024E833 /* VFLPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C1B521C2206130024E833 /* VFLPracticeUITests.swift */; };
+		C45C1B611C22062F0024E833 /* SelectorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C1B601C22062F0024E833 /* SelectorControl.swift */; };
+		C45C1B631C220C050024E833 /* SelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C1B621C220C050024E833 /* SelectorCell.swift */; };
+		C45C1B651C22140C0024E833 /* SubSelectorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C1B641C22140C0024E833 /* SubSelectorControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C45C1B4E1C2206130024E833 /* VFLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C1B521C2206130024E833 /* VFLPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFLPracticeUITests.swift; sourceTree = "<group>"; };
 		C45C1B541C2206130024E833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45C1B601C22062F0024E833 /* SelectorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorControl.swift; sourceTree = "<group>"; };
+		C45C1B621C220C050024E833 /* SelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorCell.swift; sourceTree = "<group>"; };
+		C45C1B641C22140C0024E833 /* SubSelectorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubSelectorControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				C45C1B391C2206130024E833 /* Assets.xcassets */,
 				C45C1B3B1C2206130024E833 /* LaunchScreen.storyboard */,
 				C45C1B3E1C2206130024E833 /* Info.plist */,
+				C45C1B601C22062F0024E833 /* SelectorControl.swift */,
+				C45C1B621C220C050024E833 /* SelectorCell.swift */,
+				C45C1B641C22140C0024E833 /* SubSelectorControl.swift */,
 			);
 			path = VFLPractice;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45C1B611C22062F0024E833 /* SelectorControl.swift in Sources */,
 				C45C1B351C2206130024E833 /* ViewController.swift in Sources */,
+				C45C1B631C220C050024E833 /* SelectorCell.swift in Sources */,
 				C45C1B331C2206130024E833 /* AppDelegate.swift in Sources */,
+				C45C1B651C22140C0024E833 /* SubSelectorControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
